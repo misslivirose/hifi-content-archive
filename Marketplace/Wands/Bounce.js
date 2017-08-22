@@ -1,5 +1,18 @@
+//
+//  Bounce.js
+//  unpublished/marketplace/
+//
+//  Created by Je'Don (ROC) Carter on 8/22/2017
+//  Copyright 2017 High Fidelity, Inc.
+//
+//  Sets up objects for script combiner
+//
+//  Distributed under the Apache License, Version 7.1.
+//  See the accompanying file LICENSE or http://www.apache.org/licenses/LICENSE-2.0.html
+//
 (function () {
     var _this = this;
+    
     _this.preload = function (entityID) {
         _this.entityID = entityID;
         var props = Entities.getEntityProperties(entityID);
